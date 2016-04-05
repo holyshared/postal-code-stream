@@ -1,0 +1,23 @@
+{
+  "name": "postal-code-stream",
+  "version": "0.1.0",
+  "description": "postal code stream for japanese",
+  "main": "lib/stream.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:holyshared/postal-code-stream.git"
+  },
+  "author": "Noritaka Horio <holy.shared.design@gmail>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holyshared/postal-code-stream/issues"
+  },
+  "homepage": "https://github.com/holyshared/postal-code-stream",
+  "dependencies": {
+    "csv-parse": "^1.0.0",
+    "unzip": "^0.1.11"
+  }
+}
