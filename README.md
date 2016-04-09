@@ -23,7 +23,7 @@ reader.on('end', () => {
 
 ## Object format
 
-Format of the object that will be called from the stream is as follows.
+Format of the object that will be called from the stream is as follows.  
 For the string, it has been converted from Shift_JIS to UTF8.
 
 |プロパティ|説明|
