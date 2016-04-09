@@ -9,7 +9,7 @@ It provides a stream for reading the data of the japanese postal code.
 By using the createFromZipFile, it can be read the data from the ZIP format of the file.
 
 ```js
-const stream = require('../lib/stream'); 
+const stream = require('zip-code-jp-stream'); 
 const reader = stream.createFromZipFile('../ken_all.zip');
 
 reader.on('data', (r) => {
