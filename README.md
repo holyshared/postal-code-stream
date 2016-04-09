@@ -1,6 +1,6 @@
 # postal-code-jp-stream
 
-[![Build Status](https://travis-ci.org/holyshared/postal-code-stream.svg?branch=master)](https://travis-ci.org/holyshared/postal-code-stream)
+[![Build Status](https://travis-ci.org/holyshared/zip-code-stream.svg?branch=master)](https://travis-ci.org/holyshared/zip-code-stream)
 
 It provides a stream for reading the data of the japanese postal code.
 
