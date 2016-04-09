@@ -1,4 +1,4 @@
-# postal-code-jp-stream
+# zip-code-jp-stream
 
 [![Build Status](https://travis-ci.org/holyshared/zip-code-stream.svg?branch=master)](https://travis-ci.org/holyshared/zip-code-stream)
 
