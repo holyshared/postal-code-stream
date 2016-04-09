@@ -1,7 +1,7 @@
 {
-  "name": "postal-code-jp-stream",
+  "name": "zip-code-jp-stream",
   "version": "0.1.0",
-  "description": "The postal code stream for japanese",
+  "description": "The zip code stream for japanese",
   "main": "lib/stream.js",
   "files": [
     "lib/*.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:holyshared/postal-code-stream.git"
+    "url": "git@github.com:holyshared/zip-code-stream.git"
   },
   "author": "Noritaka Horio <holy.shared.design@gmail>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/holyshared/postal-code-stream/issues"
+    "url": "https://github.com/holyshared/zip-code-stream/issues"
   },
-  "homepage": "https://github.com/holyshared/postal-code-stream",
+  "homepage": "https://github.com/holyshared/zip-code-stream",
   "dependencies": {
     "csv-parse": "^1.0.0",
     "iconv-lite": "^0.4.13",
