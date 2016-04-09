@@ -1,7 +1,7 @@
 {
   "name": "postal-code-jp-stream",
   "version": "0.1.0",
-  "description": "postal code stream for japanese",
+  "description": "The postal code stream for japanese",
   "main": "lib/stream.js",
   "files": [
     "lib/*.js",
