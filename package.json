@@ -1,6 +1,6 @@
 {
   "name": "zip-code-jp-stream",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "The zip code stream for japanese",
   "main": "lib/index.js",
   "files": [
