@@ -1,4 +1,4 @@
-const stream = require('../lib/stream');
+const stream = require('../lib/index');
 
 describe('stream', () => {
   describe('#createFromZipFile', () => {

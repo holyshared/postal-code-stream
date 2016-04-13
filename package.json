@@ -2,7 +2,7 @@
   "name": "zip-code-jp-stream",
   "version": "0.2.2",
   "description": "The zip code stream for japanese",
-  "main": "lib/stream.js",
+  "main": "lib/index.js",
   "files": [
     "lib/*.js",
     "README.md"
