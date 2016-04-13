@@ -1,5 +1,6 @@
 # zip-code-jp-stream
 
+[![npm version](https://badge.fury.io/js/zip-code-jp-stream.svg)](https://badge.fury.io/js/zip-code-jp-stream)
 [![Build Status](https://travis-ci.org/holyshared/zip-code-stream.svg?branch=master)](https://travis-ci.org/holyshared/zip-code-stream)
 [![Dependency Status](https://david-dm.org/holyshared/zip-code-stream.svg)](https://david-dm.org/holyshared/zip-code-stream)
 
