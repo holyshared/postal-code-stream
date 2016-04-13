@@ -1,12 +1,18 @@
 # zip-code-jp-stream
 
+[![npm version](https://badge.fury.io/js/zip-code-jp-stream.svg)](https://badge.fury.io/js/zip-code-jp-stream)
 [![Build Status](https://travis-ci.org/holyshared/zip-code-stream.svg?branch=master)](https://travis-ci.org/holyshared/zip-code-stream)
+[![Dependency Status](https://david-dm.org/holyshared/zip-code-stream.svg)](https://david-dm.org/holyshared/zip-code-stream)
 
 It provides a stream for reading the data of the japanese postal code.
 
 ## Basic usage
 
-By using the createFromZipFile, it can be read the data from the ZIP format of the file.
+This module supports the stream of CSV / ZIP format.
+
+### Stream of ZIP file
+
+By using the **createFromZipFile**, it can be read the data from the ZIP format of the file.
 
 ```js
 const stream = require('zip-code-jp-stream'); 
@@ -20,6 +26,25 @@ reader.on('end', () => {
   console.log('end');
 });
 ```
+
+### Stream of CSV file
+
+You can generate the CSV of the stream.
+
+```js
+const stream = require('zip-code-jp-stream'); 
+const reader = stream.createFromCSVFile('../ken_all.csv');
+
+reader.on('data', (r) => {
+  console.log(r); // CSV record object
+});
+
+reader.on('end', () => {
+  console.log('end');
+});
+```
+
+
 
 ## Object format
 
@@ -44,6 +69,12 @@ For the string, it has been converted from Shift_JIS to UTF8.
 |changed_status|更新の表示（注6）（「0」は変更なし、「1」は変更あり、「2」廃止（廃止データのみ使用））|
 |changed_reason|変更理由　（「0」は変更なし、「1」市政・区政・町政・分区・政令指定都市施行、「2」住居表示の実施、「3」区画整理、「4」郵便区調整等、「5」訂正、「6」廃止（廃止データのみ使用））|
 
-## Test
+## Execution of the test
 
-	npm run test
+1. install node modules
+
+		npm install
+
+2. running the test
+
+		npm test
